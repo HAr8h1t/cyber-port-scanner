@@ -4,7 +4,12 @@ target = "127.0.0.1"
 start_port = 20
 end_port = 1024
 
-print(f"\nScanning {target} from port {start_port} to {end_port}\n")
+per=input("Do you want to start scanning(y/n): ")
+if per=="y":
+    print(f"\nScanning {target} from port {start_port} to {end_port}\n")
+else:
+    print("lol still going to do")
+    print(f"\nScanning {target} from port {start_port} to {end_port}\n")
 
 open_ports = []
 

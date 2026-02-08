@@ -1,4 +1,4 @@
-#this is conflict line
+#now conflict should happen
 import socket
 
 target = "127.0.0.1"

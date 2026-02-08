@@ -1,4 +1,4 @@
-# CONFLICT BRANCH VERSION
+#this is conflict line
 import socket
 
 target = "127.0.0.1"

@@ -1,4 +1,4 @@
-#First project on git
+#First project on git and github
 import socket
 
 target = "127.0.0.1"
